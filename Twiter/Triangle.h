@@ -6,7 +6,7 @@ class Triangle :public Shape
 public:
 	int calculateTrianglePerimeter() const
 	{
-		return   this->height + 2 * this->width;
+		return   this->height + 2 + this->width;
 	}
 	void printInputMessage()const override {
 		cout << "Enter width and length for the triangle" << endl;
